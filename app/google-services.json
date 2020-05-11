@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "588430229463",
+    "firebase_url": "https://project-hamo.firebaseio.com",
+    "project_id": "project-hamo",
+    "storage_bucket": "project-hamo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588430229463:android:abe391850e1348b0c4d592",
+        "android_client_info": {
+          "package_name": "com.example.project_hamo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "588430229463-oqpmha5qnbnndj4hu03mfq7jedhffvn6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.project_hamo",
+            "certificate_hash": "6143499c212a3714ed3d76a08e497688a332ad10"
+          }
+        },
+        {
+          "client_id": "588430229463-gsad4e0rc4c2dhjddmugthk2u0a9jj67.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoRkk04tivVPo9pX_2JCbA5k_JF3gnQDI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "588430229463-gsad4e0rc4c2dhjddmugthk2u0a9jj67.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

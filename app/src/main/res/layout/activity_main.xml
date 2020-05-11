@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/nameEditText_registerActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Masukan Nama"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/emailEditText_registerActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Masukan Email"
+        app:layout_constraintEnd_toEndOf="@+id/nameEditText_registerActivity"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/nameEditText_registerActivity"
+        app:layout_constraintTop_toBottomOf="@+id/nameEditText_registerActivity" />
+
+        <EditText
+            android:id="@+id/passwordEditText_registerActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="Masukan Password"
+            app:layout_constraintEnd_toEndOf="@+id/emailEditText_registerActivity"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/emailEditText_registerActivity"
+            app:layout_constraintTop_toBottomOf="@+id/emailEditText_registerActivity" />
+
+        <EditText
+            android:id="@+id/rePasswordEditText_registerActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="Masukan Ulang Password"
+            app:layout_constraintEnd_toEndOf="@+id/emailEditText_registerActivity"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/passwordEditText_registerActivity"
+            app:layout_constraintTop_toBottomOf="@+id/passwordEditText_registerActivity" />
+
+    <Button
+        android:id="@+id/registerButton_registerActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="Register"
+        app:layout_constraintEnd_toEndOf="@+id/rePasswordEditText_registerActivity"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/rePasswordEditText_registerActivity"
+        app:layout_constraintTop_toBottomOf="@+id/rePasswordEditText_registerActivity" />
+
+    <TextView
+        android:id="@+id/loginTextview_registerActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Sudah mempunyai akun? login disini"
+        app:layout_constraintEnd_toEndOf="@+id/registerButton_registerActivity"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="@+id/registerButton_registerActivity"
+        app:layout_constraintTop_toBottomOf="@+id/registerButton_registerActivity" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
